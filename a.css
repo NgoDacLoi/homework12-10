@@ -1,0 +1,56 @@
+/*table, th, td {
+    border: 1px solid white;
+    border-collapse:separate;
+    position: relative;
+    left: 200px;
+    padding-top:20px; padding-right:100px; padding-bottom:100px; padding-left:100px;
+    
+  }
+   th {
+    background-color: rgb(223, 237, 245);
+    text-align:center;
+    border-top-color: black;
+    border-top-width: 1px;
+    vertical-align: top;
+    font-size: 40px;
+  }
+  .f{
+    border-color:  black;
+    border-width: 4px;
+  }
+  */
+.hai .box, .hai .boxf{
+    display: block;
+    border: 1px solid white;
+    border-collapse:separate;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    font-family: Tahoma;
+    position: relative;
+    margin:auto;   
+  }
+  .hai .box{   
+     border-top-color: #687291;
+     border-width: 4px;
+    text-align: center;
+  }
+
+  
+  .hai .box:nth-child(even){
+    background-color:#dfe1e7 ;
+  }
+ .hai .box:nth-child(odd){
+    background-color:#eeeff2 ;
+
+  }
+  .hai .boxf{
+    background-color:  #687291;
+    border-color: black;
+    border-width: 4px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 

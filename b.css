@@ -1,0 +1,53 @@
+/*box{
+    display: inline-block;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    margin: 100px;
+    padding-left: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    border-collapse:separate;
+    border-left: dotted 10px #D0D0FF;
+    cursor: pointer;
+	margin: 15px 0;
+    white-space: nowrap;
+    border-spacing: 300px;
+    
+}
+
+
+*/
+
+.mot .flex-container, .mot .boxf{
+    display:inline-block;
+    background-color: white;
+    white-space: nowrap;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  
+  .mot .flex-container > div, .mot .boxf {
+    display: inline-block;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding-left: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    border-left: dotted 10px #D0D0FF;
+    cursor: pointer;
+	margin:  10px;
+  }
+  .mot .boxf{
+    display: block;
+    position : fixed;
+    bottom : 0; 
+    right: 0;
+  }
+  
+  .mot .box:hover, .mot .boxf:hover{background-color: yellow;
+}
+  
+
